@@ -24,9 +24,9 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/import_sstpb"
-	"github.com/pingcap/tidb-lightning/lightning/config"
-	"github.com/pingcap/tidb-lightning/lightning/kv"
-	"github.com/pingcap/tidb-lightning/lightning/restore"
+	"github.com/beholders-eye/tidb-lightning/lightning/config"
+	"github.com/beholders-eye/tidb-lightning/lightning/kv"
+	"github.com/beholders-eye/tidb-lightning/lightning/restore"
 	"github.com/satori/go.uuid"
 )
 

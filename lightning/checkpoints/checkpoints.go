@@ -31,10 +31,10 @@ import (
 	"go.uber.org/zap"
 	"modernc.org/mathutil"
 
-	"github.com/pingcap/tidb-lightning/lightning/common"
-	"github.com/pingcap/tidb-lightning/lightning/log"
-	"github.com/pingcap/tidb-lightning/lightning/mydump"
-	verify "github.com/pingcap/tidb-lightning/lightning/verification"
+	"github.com/beholders-eye/tidb-lightning/lightning/common"
+	"github.com/beholders-eye/tidb-lightning/lightning/log"
+	"github.com/beholders-eye/tidb-lightning/lightning/mydump"
+	verify "github.com/beholders-eye/tidb-lightning/lightning/verification"
 )
 
 type CheckpointStatus uint8

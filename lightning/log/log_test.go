@@ -17,7 +17,7 @@ import (
 	"testing"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-lightning/lightning/log"
+	"github.com/beholders-eye/tidb-lightning/lightning/log"
 )
 
 func TestLog(t *testing.T) {

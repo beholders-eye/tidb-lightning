@@ -28,9 +28,9 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"github.com/pingcap/tidb-lightning/lightning/common"
-	"github.com/pingcap/tidb-lightning/lightning/log"
-	"github.com/pingcap/tidb-lightning/lightning/metric"
+	"github.com/beholders-eye/tidb-lightning/lightning/common"
+	"github.com/beholders-eye/tidb-lightning/lightning/log"
+	"github.com/beholders-eye/tidb-lightning/lightning/metric"
 )
 
 const (

@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-lightning/lightning/config"
-	md "github.com/pingcap/tidb-lightning/lightning/mydump"
+	"github.com/beholders-eye/tidb-lightning/lightning/config"
+	md "github.com/beholders-eye/tidb-lightning/lightning/mydump"
 	"github.com/pingcap/tidb-tools/pkg/table-router"
 )
 

@@ -40,16 +40,16 @@ import (
 	"go.uber.org/zap"
 	"modernc.org/mathutil"
 
-	. "github.com/pingcap/tidb-lightning/lightning/checkpoints"
-	"github.com/pingcap/tidb-lightning/lightning/common"
-	"github.com/pingcap/tidb-lightning/lightning/config"
-	"github.com/pingcap/tidb-lightning/lightning/kv"
-	"github.com/pingcap/tidb-lightning/lightning/log"
-	"github.com/pingcap/tidb-lightning/lightning/metric"
-	"github.com/pingcap/tidb-lightning/lightning/mydump"
-	verify "github.com/pingcap/tidb-lightning/lightning/verification"
-	"github.com/pingcap/tidb-lightning/lightning/web"
-	"github.com/pingcap/tidb-lightning/lightning/worker"
+	. "github.com/beholders-eye/tidb-lightning/lightning/checkpoints"
+	"github.com/beholders-eye/tidb-lightning/lightning/common"
+	"github.com/beholders-eye/tidb-lightning/lightning/config"
+	"github.com/beholders-eye/tidb-lightning/lightning/kv"
+	"github.com/beholders-eye/tidb-lightning/lightning/log"
+	"github.com/beholders-eye/tidb-lightning/lightning/metric"
+	"github.com/beholders-eye/tidb-lightning/lightning/mydump"
+	verify "github.com/beholders-eye/tidb-lightning/lightning/verification"
+	"github.com/beholders-eye/tidb-lightning/lightning/web"
+	"github.com/beholders-eye/tidb-lightning/lightning/worker"
 )
 
 const (

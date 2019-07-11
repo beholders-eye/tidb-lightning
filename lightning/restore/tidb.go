@@ -27,12 +27,12 @@ import (
 	"github.com/pingcap/parser/format"
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
-	. "github.com/pingcap/tidb-lightning/lightning/checkpoints"
-	"github.com/pingcap/tidb-lightning/lightning/common"
-	"github.com/pingcap/tidb-lightning/lightning/config"
-	"github.com/pingcap/tidb-lightning/lightning/log"
-	"github.com/pingcap/tidb-lightning/lightning/metric"
-	"github.com/pingcap/tidb-lightning/lightning/mydump"
+	. "github.com/beholders-eye/tidb-lightning/lightning/checkpoints"
+	"github.com/beholders-eye/tidb-lightning/lightning/common"
+	"github.com/beholders-eye/tidb-lightning/lightning/config"
+	"github.com/beholders-eye/tidb-lightning/lightning/log"
+	"github.com/beholders-eye/tidb-lightning/lightning/metric"
+	"github.com/beholders-eye/tidb-lightning/lightning/mydump"
 	"go.uber.org/zap"
 )
 

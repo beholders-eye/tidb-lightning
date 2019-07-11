@@ -8,7 +8,7 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/import_kvpb"
 	"github.com/pingcap/kvproto/pkg/import_sstpb"
-	. "github.com/pingcap/tidb-lightning/mock"
+	. "github.com/beholders-eye/tidb-lightning/mock"
 	"github.com/pingcap/tidb/util/kvencoder"
 	"github.com/satori/go.uuid"
 )

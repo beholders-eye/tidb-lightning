@@ -15,7 +15,7 @@ package common_test
 
 import (
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-lightning/lightning/common"
+	"github.com/beholders-eye/tidb-lightning/lightning/common"
 )
 
 func (s *utilSuite) TestVersion(c *C) {

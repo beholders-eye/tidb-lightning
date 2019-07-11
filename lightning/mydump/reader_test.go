@@ -18,7 +18,7 @@ import (
 	"os"
 
 	. "github.com/pingcap/check"
-	. "github.com/pingcap/tidb-lightning/lightning/mydump"
+	. "github.com/beholders-eye/tidb-lightning/lightning/mydump"
 )
 
 //////////////////////////////////////////////////////////

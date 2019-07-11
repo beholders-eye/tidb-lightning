@@ -24,9 +24,9 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb-lightning/lightning/config"
-	"github.com/pingcap/tidb-lightning/lightning/metric"
-	"github.com/pingcap/tidb-lightning/lightning/worker"
+	"github.com/beholders-eye/tidb-lightning/lightning/config"
+	"github.com/beholders-eye/tidb-lightning/lightning/metric"
+	"github.com/beholders-eye/tidb-lightning/lightning/worker"
 	"github.com/pingcap/tidb/types"
 )
 

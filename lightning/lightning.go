@@ -33,12 +33,12 @@ import (
 	"github.com/shurcooL/httpgzip"
 	"go.uber.org/zap"
 
-	"github.com/pingcap/tidb-lightning/lightning/common"
-	"github.com/pingcap/tidb-lightning/lightning/config"
-	"github.com/pingcap/tidb-lightning/lightning/log"
-	"github.com/pingcap/tidb-lightning/lightning/mydump"
-	"github.com/pingcap/tidb-lightning/lightning/restore"
-	"github.com/pingcap/tidb-lightning/lightning/web"
+	"github.com/beholders-eye/tidb-lightning/lightning/common"
+	"github.com/beholders-eye/tidb-lightning/lightning/config"
+	"github.com/beholders-eye/tidb-lightning/lightning/log"
+	"github.com/beholders-eye/tidb-lightning/lightning/mydump"
+	"github.com/beholders-eye/tidb-lightning/lightning/restore"
+	"github.com/beholders-eye/tidb-lightning/lightning/web"
 )
 
 type Lightning struct {

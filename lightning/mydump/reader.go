@@ -22,7 +22,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb-lightning/lightning/log"
+	"github.com/beholders-eye/tidb-lightning/lightning/log"
 	"go.uber.org/zap"
 	"golang.org/x/text/encoding/simplifiedchinese"
 )

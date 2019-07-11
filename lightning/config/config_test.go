@@ -25,7 +25,7 @@ import (
 	"testing"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-lightning/lightning/config"
+	"github.com/beholders-eye/tidb-lightning/lightning/config"
 )
 
 func Test(t *testing.T) {

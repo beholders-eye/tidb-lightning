@@ -19,8 +19,8 @@ import (
 	"path/filepath"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-lightning/lightning/config"
-	. "github.com/pingcap/tidb-lightning/lightning/mydump"
+	"github.com/beholders-eye/tidb-lightning/lightning/config"
+	. "github.com/beholders-eye/tidb-lightning/lightning/mydump"
 )
 
 var _ = Suite(&testMydumpRegionSuite{})

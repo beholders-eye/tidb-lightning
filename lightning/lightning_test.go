@@ -24,7 +24,7 @@ import (
 
 	. "github.com/pingcap/check"
 	"github.com/pingcap/failpoint"
-	"github.com/pingcap/tidb-lightning/lightning/config"
+	"github.com/beholders-eye/tidb-lightning/lightning/config"
 )
 
 type lightningSuite struct{}
@@ -97,11 +97,11 @@ func (s *lightningServerSuite) SetUpTest(c *C) {
 	s.lightning.ctx = context.WithValue(s.lightning.ctx, &taskCfgRecorderKey, s.taskCfgCh)
 	s.lightning.GoServe()
 
-	failpoint.Enable("github.com/pingcap/tidb-lightning/lightning/SkipRunTask", "return")
+	failpoint.Enable("github.com/beholders-eye/tidb-lightning/lightning/SkipRunTask", "return")
 }
 
 func (s *lightningServerSuite) TearDownTest(c *C) {
-	failpoint.Disable("github.com/pingcap/tidb-lightning/lightning/SkipRunTask")
+	failpoint.Disable("github.com/beholders-eye/tidb-lightning/lightning/SkipRunTask")
 	s.lightning.Stop()
 }
 

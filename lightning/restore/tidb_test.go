@@ -27,8 +27,8 @@ import (
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/model"
 	tmysql "github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb-lightning/lightning/checkpoints"
-	"github.com/pingcap/tidb-lightning/lightning/mydump"
+	"github.com/beholders-eye/tidb-lightning/lightning/checkpoints"
+	"github.com/beholders-eye/tidb-lightning/lightning/mydump"
 	"github.com/pingcap/tidb/ddl"
 	"github.com/pingcap/tidb/util/mock"
 )

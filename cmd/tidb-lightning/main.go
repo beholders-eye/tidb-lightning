@@ -19,9 +19,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/pingcap/tidb-lightning/lightning"
-	"github.com/pingcap/tidb-lightning/lightning/config"
-	"github.com/pingcap/tidb-lightning/lightning/log"
+	"github.com/beholders-eye/tidb-lightning/lightning"
+	"github.com/beholders-eye/tidb-lightning/lightning/config"
+	"github.com/beholders-eye/tidb-lightning/lightning/log"
 	"go.uber.org/zap"
 )
 

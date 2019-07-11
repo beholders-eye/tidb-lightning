@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-lightning/lightning/checkpoints"
-	"github.com/pingcap/tidb-lightning/lightning/mydump"
-	"github.com/pingcap/tidb-lightning/lightning/verification"
+	"github.com/beholders-eye/tidb-lightning/lightning/checkpoints"
+	"github.com/beholders-eye/tidb-lightning/lightning/mydump"
+	"github.com/beholders-eye/tidb-lightning/lightning/verification"
 )
 
 func Test(t *testing.T) {

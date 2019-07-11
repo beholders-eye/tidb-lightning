@@ -23,7 +23,7 @@ import (
 
 	"github.com/coreos/go-semver/semver"
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-lightning/lightning/config"
+	"github.com/beholders-eye/tidb-lightning/lightning/config"
 )
 
 var _ = Suite(&checkReqSuite{})

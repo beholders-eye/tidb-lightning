@@ -19,7 +19,7 @@ import (
 
 	. "github.com/pingcap/check"
 
-	"github.com/pingcap/tidb-lightning/lightning/metric"
+	"github.com/beholders-eye/tidb-lightning/lightning/metric"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

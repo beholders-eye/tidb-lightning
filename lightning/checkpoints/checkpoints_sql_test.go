@@ -8,9 +8,9 @@ import (
 
 	"github.com/DATA-DOG/go-sqlmock"
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-lightning/lightning/mydump"
-	"github.com/pingcap/tidb-lightning/lightning/checkpoints"
-	"github.com/pingcap/tidb-lightning/lightning/verification"
+	"github.com/beholders-eye/tidb-lightning/lightning/mydump"
+	"github.com/beholders-eye/tidb-lightning/lightning/checkpoints"
+	"github.com/beholders-eye/tidb-lightning/lightning/verification"
 )
 
 var _ = Suite(&cpSQLSuite{})

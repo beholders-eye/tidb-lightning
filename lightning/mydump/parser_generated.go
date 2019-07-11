@@ -26,7 +26,7 @@ package mydump
 import (
 	"io"
 
-	"github.com/pingcap/tidb-lightning/lightning/log"
+	"github.com/beholders-eye/tidb-lightning/lightning/log"
 	"github.com/pingcap/errors"
 	"go.uber.org/zap"
 )

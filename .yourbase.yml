@@ -1,0 +1,13 @@
+dependencies:
+  build:
+    - go:1.12.6
+
+build_targets:
+  - name: default
+    commands:
+      - go build -o tidb-lightning cmd/tidb-lightning/main.go
+
+ci:
+  builds:
+    - name: test_ci
+      build_target: default
