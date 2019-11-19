@@ -6,6 +6,7 @@ build_targets:
   - name: default
     commands:
       - go build -o tidb-lightning cmd/tidb-lightning/main.go
+      - echo "done"
 
 ci:
   builds:
