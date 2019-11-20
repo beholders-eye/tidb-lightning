@@ -9,3 +9,6 @@ This document defines the roadmap for Lightning development.
     - [ ] visual display of import
 + [ ] distributed import: easily deploy multiple Lightning and Importer instances to horizontally speed up restoration
 + [ ] online import
+
+
++ [ ] Do we?
